@@ -5,6 +5,13 @@ public struct CodingStyleCased {
     }
 }
 
+public struct CodingStyleCasedTest1 {
+    public private(set) var text = "Hello, World!"
+
+    public init() {
+    }
+}
+
 
 @propertyWrapper
 struct CodingStyle {
