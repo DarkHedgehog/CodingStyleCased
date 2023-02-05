@@ -14,7 +14,7 @@ public struct CodingStyleCasedTest1 {
 
 
 @propertyWrapper
-struct CodingStyle {
+public struct CodingStyle {
     var value: String
     var style: Style
 
@@ -23,7 +23,7 @@ struct CodingStyle {
         self.value = wrappedValue
     }
 
-    var wrappedValue: String {
+    public var wrappedValue: String {
         get {
             return value
         }
@@ -33,7 +33,7 @@ struct CodingStyle {
         }
     }
 
-    enum Style {
+    public enum Style {
         /// camelCaseExample
         case camelCase
         /// snake_case_example
