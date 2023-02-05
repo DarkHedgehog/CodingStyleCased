@@ -8,7 +8,7 @@
 import Foundation
 
 @propertyWrapper
-struct CodingStyle {
+struct CodingStyleCased {
     var value: String
     var style: Style
 
